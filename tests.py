@@ -1,8 +1,19 @@
 import ListAnalyzer as LAR
 from functions import GetCopy
 
-lar = LAR.ListAnalyzer(None)
-GetCopy.GetCopy(lar.list)
+# GetCopy
+# lar = LAR.ListAnalyzer(None)
+# lar.insert(30)
+# lar.insert(7)
+# lar.insert(30)
+# lar.insert(5)
+# lar.insert(30)
+# lar.insert(7)
+# lar.insert(5)
+
+# copies = GetCopy.GetCopy(lar.list)
+# for i in copies:
+#     print(i)
 
 # List Name
 # lar = LAR.ListAnalyzer("MyList")
