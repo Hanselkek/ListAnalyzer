@@ -11,7 +11,13 @@ class ListAnalyzer:
 
     def remove(self):
         list_count -= 1
+
         self.list.clear()
+        self.list = None
+
+    def insert(self, a):
+        assert a != None, TypeError
+        self.list.append(a)
 
     def get_count(self):
         return len(self.list)
