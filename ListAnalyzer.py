@@ -9,10 +9,12 @@ class ListAnalyzer:
         self.listName = ListName or f"RandList{list_count}"
         self.list = []
 
-    def remove(self):
+    def delete(self):
         list_count -= 1
-
+        # Rewrite to delete the class instead
         self.list.clear()
+
+        self.listName = None
         self.list = None
 
     def insert(self, a):
