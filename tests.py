@@ -6,7 +6,7 @@ import ListAnalyzer as LAR
 
 # delete
 # lar = LAR.ListAnalyzer("MyList")
-# lar.delete()
+# del lar
 
 # insert
 # lar = LAR.ListAnalyzer("MyList")
