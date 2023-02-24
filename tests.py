@@ -1,4 +1,8 @@
 import ListAnalyzer as LAR
+from functions import GetCopy
+
+lar = LAR.ListAnalyzer(None)
+GetCopy.GetCopy(lar.list)
 
 # List Name
 # lar = LAR.ListAnalyzer("MyList")
